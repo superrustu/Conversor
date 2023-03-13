@@ -11,7 +11,7 @@ namespace Conversor
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MenuPrincipal());
+            MainPage = new NavigationPage(new Tarjetas());
         }
 
         protected override void OnStart()

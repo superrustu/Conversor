@@ -15,8 +15,7 @@
                HasShadow="False">
             <StackLayout VerticalOptions="Center"
                          Spacing="20">
-                <Image Source="wincha.jpg"
-                       />
+                <Image Source="wincha.jpg" />
                 <Label Text="(cm) a (m)"
                        FontSize="30"
                        FontAttributes="Bold"
@@ -28,7 +27,7 @@
                         CornerRadius="10"
                         FontSize="Medium"
                         x:Name="btnIniciar"
-                        Clicked="btnIniciar_Clicked"/>
+                        Clicked="btnIniciar_Clicked" />
             </StackLayout>
         </Frame>
     </StackLayout>
