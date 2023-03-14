@@ -39,6 +39,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button Text="Popup" 
+                x:Name="btnPopup" 
+                Clicked="btnPopup_Clicked"/>
     </StackLayout>
 
 </ContentPage>
